@@ -10,13 +10,13 @@ function carregar() {
 
   msg.innerHTML = `<strong>Hoje é dia ${dia}/${mes}/${ano4} e são ${hora}:${min}:${seg} horas!</strong>`
   if (hora >= 0 && hora < 12) {
-    img.src = 'DataHoraReal/imagem/sun.png'
+    img.src = './imagem/sun.png'
     document.body.style.background = '#e2cd9f' // CODIGO PARA O DIA DAS 0 HORAS AS 12 HORAS
   } else if (hora >= 12 && hora < 18) {
-    img.src = '/DataHoraReal/imagem/afternoon.png'
+    img.src = './imagem/afternoon.png'
     document.body.style.background = '#b9846f' // CODIGO PARA O DIA DAS 12 HORAS AS 18 HORAS
   } else {
-    img.src = '/DataHoraReal/imagem/night.png'
+    img.src = './imagem/night.png'
     document.body.style.background = '#515154' // para qualquer outra hora
   }
 }
