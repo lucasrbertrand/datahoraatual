@@ -1,25 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap');
+
 body {
   background: rgb(185, 187, 150);
-  font: normal 15px Arial;
-  
+  font-family: 'Gentium Plus', sans-serif;
 }
 
 img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  box-shadow: 5px 5px 5px grey;
 }
 
 #horarioDeHoje {
   font-size: 20px;
   font-style: bold;
   text-align: center;
-
 }
 
 header {
   text-align: center;
   color: white;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 section {
@@ -33,10 +36,12 @@ section {
 
 div {
   text-align: center;
-  padding: 10px
+  padding: 10px;
+  
 }
 footer {
   text-align: center;
   font-style: italic;
   color: white;
+  font-weight: bold;
 }
